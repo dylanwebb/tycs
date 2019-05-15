@@ -17,6 +17,6 @@ Projects - http://wla.berkeley.edu/~cs61a/reader/vol1.html
 Exams - http://wla.berkeley.edu/~cs61a/reader/vol2.html
 
 #### Setup UCB Scheme (on Mac)
-Install using link above
-Install XQuartz to get X11 (search 'x11 on mac')
-Run stk-simply in Terminal
+Install using link above.  
+Install XQuartz to get X11 (search 'x11 on mac').  
+Run stk-simply in Terminal.  
