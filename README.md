@@ -13,9 +13,9 @@ Book - https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.htm
 Syllabus - https://wla.berkeley.edu/~cs61a/sp11/0.pdf  
 UCB Scheme - https://inst.eecs.berkeley.edu/~scheme/  
 Homework - http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf  
+Labs - http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf 
 Projects - http://wla.berkeley.edu/~cs61a/reader/vol1.html  
 Exams - http://wla.berkeley.edu/~cs61a/reader/vol2.html
-Labs - http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf 
 Lecture Notes - http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf
 
 #### Setup UCB Scheme (on Mac)
