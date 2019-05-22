@@ -1,0 +1,6 @@
+(define (sqr x)
+  (* x x))
+(define (squares sc)
+  (if (empty? sc)
+      '()
+      (se (sqr (first sc)) (squares (bf sc)))))
