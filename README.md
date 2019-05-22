@@ -26,6 +26,8 @@ __Exams__ - http://wla.berkeley.edu/~cs61a/reader/vol2.html
 
 __Lecture Notes__ - http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf
 
+__Emacs Guide__ - https://www.ocf.berkeley.edu/~weitu/cs61a/EmacsHandout.pdf
+
 #### Setup UCB Scheme (on Mac)
 Install using link above.  
 Install XQuartz to get X11 (search 'x11 on mac').  
