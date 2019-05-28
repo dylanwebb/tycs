@@ -17,7 +17,6 @@ Labs - http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf
 Projects - http://wla.berkeley.edu/~cs61a/reader/vol1.html  
 Exams - http://wla.berkeley.edu/~cs61a/reader/vol2.html  
 Lecture Notes - http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf  
-Emacs Guide - https://www.ocf.berkeley.edu/~weitu/cs61a/EmacsHandout.pdf  
 
 #### Setup UCB Scheme (on Mac)
 Install using link above.  
