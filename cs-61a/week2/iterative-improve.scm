@@ -1,0 +1,20 @@
+(define (iterative-improve good-enough? improve)
+  (define (it-imp guess) 
+    (if (good-enough? guess)
+        guess
+        (it-imp (improve guess))))
+  it-imp)
+
+(define (sqrt x)
+  (define (improve guess)
+    (/ (+ guess (/ x guess)) 2))
+  (define (good-enough? guess)
+    (< (abs (- (* guess guess) x)) 0.001))
+  ((iterative-improve good-enough? improve) 1.0))
+
+(define (fixed-point f first-guess)
+  (define (improve guess)
+    (/ (+ (f guess) guess) 2))
+  (define (close-enough? guess)
+    (< (abs (- guess (f guess))) 0.00001))
+  ((iterative-improve close-enough? improve) first-guess))
