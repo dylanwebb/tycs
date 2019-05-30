@@ -1,0 +1,14 @@
+okay
+STk> (load "pigl")
+okay
+STk> (pigl 'scheme)
+emeschay
+STk> (trace pigl)
+okay
+STk> (pigl 'japan)
+.. -> pigl with wd = japan
+.... -> pigl with wd = apanj
+.... <- pigl returns apanjay
+.. <- pigl returns apanjay
+apanjay
+STk> (transcript-off)

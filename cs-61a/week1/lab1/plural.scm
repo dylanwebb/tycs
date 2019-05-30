@@ -1,0 +1,8 @@
+(define (plural wd)
+  (define (vowel? chr) (member? chr '(a e i o u)))
+  (let ((last-chr (last wd)) (penult-chr (last (bl wd))))
+    (if (equal? last-chr 'y)
+      (if (vowel? penult-chr)
+        (word wd 's)
+        (word (bl wd) 'ies))
+        (word wd 's))))

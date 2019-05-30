@@ -1,0 +1,6 @@
+(define (dupls-removed sent)
+  (define (helper sent res)
+    (cond ((equal? sent '()) res)
+      ((member? (first sent) res) (helper (bf sent) res))
+      (else (helper (bf sent) (se res (first sent))))))
+  (helper sent '()))
