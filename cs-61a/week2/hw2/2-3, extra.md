@@ -8,6 +8,7 @@ Our Scheme library provides versions of the `every` function from the last exerc
 `(keep (lambda (letter) (member? letter 'aeiou)) '(purple syzygy))` - returns `Error`  
 `(keep (lambda (wd) (member? 'e wd)) '(purple syzygy))` - returns `(purple)`  
 
+------
 
 In principle, we could build a version of Scheme with no primitives except `lambda`. Everything else can be defined in terms of `lambda`, although it’s not done that way in practice because it would be so painful. But we can get a sense of the flavor of such a language by eliminating one feature at a time from Scheme to see how to work around it.  
 In this problem we explore a Scheme without `define`. We can give things names by using argument binding, as `let` does, so instead of
