@@ -22,3 +22,25 @@ Lecture Notes - http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf
 Install using link above.  
 Install XQuartz to get X11 (search 'x11 on mac').  
 Run stk-simply in Terminal.  
+
+#### Common Issues
+If running stk-simply in the Terminal is producing an error (Bad CPU type), your mac is probably newer since stk scheme is not supported on the newer MacOS
+
+As an alternative suggestive by Brian Harvey in the comments of the first lecture on archive.org (link to lectures above, find lecture 1)
+
+>About the software: Your best bet these days might be to use the simply-scheme package in Racket as another commenter suggests below. STk still works for me, but I'm only on MacOS 10.13; I know everything will break if I ever have to replace my Mac with a new one.
+
+DrRacket Installation - https://download.racket-lang.org/.  
+DrRacket Docs - https://docs.racket-lang.org/pollen/Installation.html.  
+
+Once DrRacket is installed, follow the instructions within docs (1.2 How to Install) for updating the PATH environment variable on your respective OS. 
+After the path is updated, run the following command in the Terminal: 
+```
+raco pkg install simply-scheme
+```
+Finally, open DrRacket to run the following in the top editor:
+```
+#lang simply-scheme
+```
+
+You are now ready to tackle the best computer programming book ever written!
